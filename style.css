@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    background-color: blue;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Menambahkan scroll */
+    font-size: 20px; /* Membesarkan ukuran font */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: darkblue;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-size: 22px; /* Membesarkan font pada navigasi */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px; /* Membesarkan font pada link */
+}
+
+.centered-content {
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 24px; /* Membesarkan font pada konten utama */
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    background-color: blue;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Menambahkan scroll */
+    font-size: 20px; /* Membesarkan ukuran font */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: darkblue;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-size: 22px; /* Membesarkan font pada navigasi */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px; /* Membesarkan font pada link */
+}
+
+.centered-content {
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 24px; /* Membesarkan font pada konten utama */
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.answer-button {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.answer-button:hover {
+    background-color: lightblue;
+}
